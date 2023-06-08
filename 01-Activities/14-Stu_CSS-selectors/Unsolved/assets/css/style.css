@@ -1,0 +1,40 @@
+/* universal selector. applies to the whole HTML document. */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* Applies to the body element */
+body:hover {
+  background-color: aqua;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+
+/* Applies to the header and footer elements*/
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* applies to the class named "highleted-text" */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Applies background colour to the ID tag named "contact-section" 
+*/
+#contact-section {
+  background-color: #f0ead6;
+}
